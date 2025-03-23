@@ -1,0 +1,22 @@
+body{
+    background: moccasin;
+}
+h1{
+    font-size: 30px;
+    font-family: "Arial Black", serif;
+    font-weight: bold;
+    color: gray;
+}
+p{
+    font-size: 12px;
+    font-family: cursive;
+}
+a{
+    background-color: cornflowerblue;
+    color: white;
+}
+img{
+    border-radius: 30px;
+    border: solid 2px black;
+    margin : 10px;
+}
