@@ -1,21 +1,30 @@
-body{
+body
+{
     background: moccasin;
 }
-h1{
+
+h1
+{
     font-size: 30px;
     font-family: "Arial Black", serif;
     font-weight: bold;
     color: gray;
 }
-p{
+
+p
+{
     font-size: 12px;
     font-family: cursive;
 }
-a{
+
+a
+{
     background-color: cornflowerblue;
     color: white;
 }
-img{
+
+img
+{
     border-radius: 30px;
     border: solid 2px black;
     margin : 10px;
