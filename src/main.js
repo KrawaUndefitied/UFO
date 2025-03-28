@@ -1,13 +1,29 @@
 "use strict";
-/*Коментарии для бро, если воспользоваться горячими клавишами
-ctrl+/(однострочный комментарий)
-или ctrl+shift+/(многострочный коментарий), то в целом проще жить)))
- */
-alert("Bro, do you want to see a new world?");
-alert("New World!");
-let admin, name;
-name="John";
-admin=name;
-alert(admin);
-let Earth, UserPage;
-Earth = 25;
+let admin="admin"
+
+let DerParole = prompt("What is your name?");
+
+if (DerParole===null||DerParole==='') {
+    alert("Cancelled");
+}
+
+if (DerParole!="admin") {
+    alert("I don't know you");
+}
+
+if (DerParole === admin) {
+    admin = prompt("Enter password please");
+
+
+    if (admin == "i'm the boss") {
+        alert("Hello bug man");
+    }
+
+    if (admin != "i'm the boss") {
+        alert("Incorrect password");
+    }
+
+    if (admin === null || admin === "") {
+        alert("Cancelled");
+    }
+}
