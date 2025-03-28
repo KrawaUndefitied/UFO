@@ -18,7 +18,7 @@ if (DerParole === "admin") {
         alert("Hello bug man");
     }
 
-    if (admin != "i'm the boss") {
+    if (admin !== "i'm the boss") {
         alert("Incorrect password");
     }
 
