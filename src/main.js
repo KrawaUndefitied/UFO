@@ -1,5 +1,4 @@
 "use strict";
-let admin="admin"
 
 let DerParole = prompt("What is your name?");
 
@@ -11,8 +10,8 @@ if (DerParole!="admin") {
     alert("I don't know you");
 }
 
-if (DerParole === admin) {
-    admin = prompt("Enter password please");
+if (DerParole === "admin") {
+    const admin = prompt("Enter password please");
 
 
     if (admin == "i'm the boss") {
